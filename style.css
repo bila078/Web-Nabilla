@@ -1,0 +1,152 @@
+html,
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  max-width: 960px;
+  width: 100%;
+}
+
+.padding {
+  font-family: sans-serif;
+  padding-left: 10em;
+  padding-bottom: 10em;
+}
+
+.pDataku {
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-color: rgb(27, 147, 216);
+  margin: 0 auto;
+  border-radius: 2rem;
+  box-shadow: 15px 15px 15px;
+}
+
+.fotoku {
+  width: 15em;
+  height: 20em;
+}
+
+.table tr td {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: rgb(27, 147, 216);
+}
+
+.table tr td:first-child {
+  font-weight: 700;
+}
+
+.right img {
+  border-radius: 2rem;
+  box-shadow: 3em 3em 3em;
+}
+
+/* tambahkan di style.css */
+.card-content {
+  padding: 10px;
+}
+
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.info-table td {
+  padding: 8px;
+  border-bottom: 1px solid rgb(27, 147, 216);
+  vertical-align: top;
+  /* vertikal aligment untuk memastikan teks tidak terlalu tinggi */
+}
+
+.info-table .value {
+  text-align: left;
+  margin-right: 12px;
+  /* align nilai data ke kiri */
+}
+
+.info-table .value .titikDua {
+  margin-right: 12px;
+  margin-left: -10px;
+  /* align nilai data ke kiri */
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, minmax (0, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.card {
+  background-color: rgb(27, 147, 216);
+  opacity: 0.8;
+  background: radial-gradient(
+      circle,
+      transparent 20%,
+      rgb(27, 147, 216) 20%,
+      rgb(27, 147, 216) 80% transparent 80%,
+      transparent
+    ),
+    radial-gradient(
+      circle,
+      transparent 20%,
+      rgb(27, 147, 216) 20%,
+      rgb(27, 147, 216) 80%,
+      transparent 80%,
+      transparent
+    ),
+    25px 25px linear-gradient(rgb(27, 147, 216) 2px, transparent 2px) 0 -1px,
+    linear-gradient(90deg, rgb(27, 147, 216) 2px, rgb(27, 147, 216) 2px) -1px 0;
+  background-size: 50px 50px, 50px 50px, 25px 25px;
+  border-radius: 8px;
+  margin: 0 auto;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 400px;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 128px;
+  height: 128px;
+  border-radius: 12px;
+}
+
+.card-content {
+  padding: 16px;
+  margin-top: -15px;
+}
+
+.card-content h4 {
+  margin: 0 0 10px;
+  font-size: 1.2em;
+}
+
+.card-content p {
+  margin: 0;
+  color: #555;
+}
+
+.data {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+.bos {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 16px;
+}
